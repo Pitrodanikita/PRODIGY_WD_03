@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(93, 191, 215);
+}
+.cell{
+    background-color:honeydew;
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+
+#statusText{
+    text-align: center;
+}
+
+#main{
+    text-align: center;
+}
+
+#restartBtn{
+    padding: auto;
+    margin: auto;
+    border-radius: 2px;
+    size: 15px;
+    color:aliceblue;
+    background-color: rgb(3, 50, 68);
+}
